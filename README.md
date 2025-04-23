@@ -1,2 +1,2 @@
-# mathferraz making magic
+# rmzanco.github.io
 Wedding Website
