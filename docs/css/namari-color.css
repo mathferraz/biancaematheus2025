@@ -128,7 +128,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/background.jpeg") no-repeat center top;
+    background: url("../images/banner-images/backgroundnew.jpg") no-repeat center top;
     /* background-color: #d9d9d9; */
     background-size:cover;
 }
@@ -336,7 +336,7 @@ h6 {
 @media (max-width: 480px) {
 
     #banner {
-        background: url("../images/banner-images/backgroundmobile.jpeg") no-repeat center top;
+        background: url("../images/banner-images/backgroundmobilenew.jpg") no-repeat center top;
         background-size:cover;
     }
 
