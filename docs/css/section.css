@@ -176,3 +176,76 @@
     padding: 0 10px;
   }
 }
+
+/* HOTEIS */
+.hotel-section {
+  padding: 60px 20px;
+}
+
+.hotel-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.hotel-block {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: center;
+}
+
+.hotel-map iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-info {
+  max-width: 400px;
+}
+
+.hotel-info h4 {
+  font-family: 'Forum', serif;
+  font-size: 24px;
+  color: #c2a15f;
+  margin-bottom: 10px;
+}
+
+.hotel-info p {
+  font-size: 16px;
+  color: #14114c;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+
+.hotel-info a {
+  color: #c2a15f;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.hotel-info a:hover {
+  color: #a88a4f;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hotel-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hotel-info {
+    max-width: 100%;
+  }
+}
+
