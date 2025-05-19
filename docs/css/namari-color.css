@@ -94,7 +94,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .section-heading h2:after {
-    background:#56bbd256;
+    background:#14114c;
     content:"";
     display:block;
     width:30px;
@@ -128,11 +128,10 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/backgroundnew.jpg") no-repeat center top;
-    /* background-color: #d9d9d9; */
-    background-size:cover;
+    background: url("../images/banner-images/backgroundnew.svg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
 }
-
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -186,10 +185,24 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
+    font-family: 'Forum', serif;
+    font-size: 34px;
     font-weight:700;
-    color:#111;
+    color:#c2a15f;
+}
+
+h3.section-title {
+    font-family: 'Forum', serif;
+    font-size: 28px;
+    font-weight: 400;
+    color:#c2a15f;
+}
+
+.section-heading p {
+    font-family: 'Forum', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #14114c;
 }
 
 .section-subtitle {
@@ -198,6 +211,51 @@ body {
     font-weight:300;
     color:#9c9c9c;
 }
+
+.location-map h4 {
+    color:#c2a15f;
+    font-weight:700;
+    font-family: 'Forum', serif;
+}
+
+/* Melhor visual para a seção de localização */
+    .location-text {
+    padding-right: 30px;
+    }
+
+    .location-map {
+    padding-left: 30px;
+    }
+
+    /* Borda arredondada e sombra no mapa */
+    .map-wrapper iframe {
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Estilo do link do mapa */
+    .map-link {
+    font-weight: bold;
+    color: #c2a15f;
+    text-decoration: underline;
+    }
+
+    .map-link:hover {
+    color: #a38a4f;
+    }
+
+    /* Responsividade para mobile */
+    @media (max-width: 768px) {
+    .col-2-3, .col-1-3 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .location-map {
+        margin-top: 30px;
+    }
+    }
+
 
 /* Testimonial */
 
@@ -344,5 +402,5 @@ h6 {
         width: 180px;
         height: 250px;
     }
-    
+
 }
