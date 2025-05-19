@@ -116,3 +116,63 @@
 .confirm-text a:hover {
   color: #a88a4f;
 }
+
+/* traje */
+.dress-section {
+  padding: 60px 20px;
+}
+
+.dress-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.dress-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dress-image img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.dress-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.dress-text h4 {
+  font-family: 'Forum', serif;
+  font-size: 24px;
+  color: #c2a15f;
+  margin-bottom: 10px;
+}
+
+.dress-text p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #14114c;
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .dress-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dress-text {
+    text-align: center;
+    padding: 0 10px;
+  }
+}
